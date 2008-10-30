@@ -1,7 +1,7 @@
 CmdUtils.CreateCommand({
   name: "plasmodb",
   takes: {"plasmodb_id": noun_arb_text},
-  homepage: "http://github.com/wwood/eupathdb_ubiquity",
+  homepage: "http://gist.github.com/20872",
   author: { name: "Ben J. Woodcroft", email: "b.woodcroft@pgrad.unimelb.edu.au"},
   contributors: ["Ben J. Woodcroft"],
   license: "GPL3",
@@ -18,7 +18,7 @@ CmdUtils.CreateCommand({
 CmdUtils.CreateCommand({
   name: "toxodb",
   takes: {"toxodb_id": noun_arb_text},
-  homepage: "http://github.com/wwood/eupathdb_ubiquity",
+  homepage: "http://gist.github.com/20872",
   author: { name: "Ben J. Woodcroft", email: "b.woodcroft@pgrad.unimelb.edu.au"},
   contributors: ["Ben J. Woodcroft"],
   license: "GPL3",
@@ -35,7 +35,7 @@ CmdUtils.CreateCommand({
 CmdUtils.CreateCommand({
   name: "toxodb beta",
   takes: {"toxodb_id": noun_arb_text},
-  homepage: "http://github.com/wwood/eupathdb_ubiquity",
+  homepage: "http://gist.github.com/20872",
   author: { name: "Ben J. Woodcroft", email: "b.woodcroft@pgrad.unimelb.edu.au"},
   contributors: ["Ben J. Woodcroft"],
   license: "GPL3",
