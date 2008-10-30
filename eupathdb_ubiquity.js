@@ -10,7 +10,6 @@ CmdUtils.CreateCommand({
   
   execute: function(plasmodb_id) {
     var urlString = "http://plasmodb.org/gene/"+plasmodb_id.text;
-    displayMessage(urlString);
     Utils.openUrlInBrowser(urlString);
   }
 })
@@ -27,7 +26,6 @@ CmdUtils.CreateCommand({
   
   execute: function(toxodb_id) {
     var urlString = "http://toxodb.org/gene/"+toxodb_id.text;
-    displayMessage(urlString);
     Utils.openUrlInBrowser(urlString);
   }
 })
@@ -44,7 +42,6 @@ CmdUtils.CreateCommand({
   
   execute: function(toxodb_id) {
     var urlString = "http://beta.toxodb.org/gene/"+toxodb_id.text;
-    displayMessage(urlString);
     Utils.openUrlInBrowser(urlString);
   }
 })
